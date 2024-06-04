@@ -25,6 +25,7 @@ const Header = ({ chosenLightModus }) => {
             <Button />
           </a>
         </div>
+        <div class="verify">
         <a
         target='blank'
         href="https://github.com/"><GitHub/></a>
@@ -34,7 +35,7 @@ const Header = ({ chosenLightModus }) => {
         >
           <In />
         </a>
-       
+       </div>
       </header>
     </div>
   );

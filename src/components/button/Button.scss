@@ -5,6 +5,7 @@
   transition: all 0.1s linear;
   position: relative;
   z-index: 0;
+  gap: 1em;
 
   &:hover {
     cursor: pointer;
@@ -21,6 +22,10 @@
     transition: transform 0.3s;
     transform-origin: 0 0;
     transition-timing-function: cubic-bezier(0.5, 1.6, 0.4);
+  }
+
+  .button-container {
+    gap: 2rem;
   }
 
   &::before {
