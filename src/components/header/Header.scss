@@ -1,0 +1,34 @@
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h1 span {
+  color: #cd8228;
+}
+
+.headerContainer > p {
+  width: 30vw;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .headerContainer > p {
+    width: 50vw; /* Passe die Breite für Tablets an */
+  }
+}
+
+@media (max-width: 480px) {
+  .headerContainer > p {
+    width: 80vw; /* Passe die Breite für Smartphones an */
+  }
+  h1 {
+    text-align: center;
+  }
+}
