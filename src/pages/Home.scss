@@ -1,15 +1,15 @@
 //#fff;  #444;  #b56a29;
 
 body {
-  font-family: 'poppins-rg';
-  background-color: #422007;
+  font-family: "poppins-rg";
+  background-color: #2b2a33;
 
   .navbar {
     a {
       color: #dcb26f;
     }
     &::after {
-      background-color: #cd8228;;
+      background-color: #cd8228;
     }
   }
   h3 {
@@ -19,7 +19,7 @@ body {
   h2,
   h3 {
     color: #cd8228;
-    font-family: 'poppins-bd';
+    font-family: "poppins-bd";
   }
   p,
   a {
@@ -35,7 +35,7 @@ body {
   .git {
     fill: #cd8228;
   }
-  .singelSkillWrapper {
+  .singleSkillWrapper {
     a {
       background-color: #2a2f4c;
     }
@@ -61,7 +61,7 @@ body {
       font-size: 1.5rem;
       color: #cd8228;
       align-self: center;
-      font-family: 'poppins-bd';
+      font-family: "poppins-bd";
     }
 
     ul {
@@ -73,11 +73,11 @@ body {
         font-size: 1.125rem;
 
         text-decoration: none;
-        font-family: 'poppins-rg', sans-serif;
+        font-family: "poppins-rg", sans-serif;
         position: relative;
 
         &::after {
-          content: '';
+          content: "";
           position: absolute;
           background-color: #cd8228;
           height: 3px;
@@ -177,7 +177,7 @@ body {
       // font-size: 1rem;
       color: #b56a29;
       align-self: center;
-      font-family: 'poppins-bd';
+      font-family: "poppins-bd";
     }
 
     ul {
@@ -189,11 +189,11 @@ body {
         font-size: 1.125rem;
 
         text-decoration: none;
-        font-family: 'poppins-rg', sans-serif;
+        font-family: "poppins-rg", sans-serif;
         position: relative;
 
         &::after {
-          content: '';
+          content: "";
           position: absolute;
           background-color: #b56a29;
           height: 3px;

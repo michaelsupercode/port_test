@@ -16,8 +16,12 @@ const Header = ({ chosenLightModus }) => {
         </h4>
         <h4>certified Fullstack Developer</h4>
         <p>
-          Hallo, ich bin und
-          wäre da.. 
+        IT enthusiast / autodidact (-85) with extensive amateurishly experience (-01)
+              in screen and web design as well as programming - self-taught
+              rookie in JavaScript, completed several FreeCodeCamp courses.
+              highly skilled in remote
+              work. extensive experience in <del>Microsoft Azure</del> cloud
+              architecture and all kinds of hosting anywhere
           
         </p>
         <div className="buttonContainer">
@@ -25,7 +29,7 @@ const Header = ({ chosenLightModus }) => {
             <Button />
           </a>
         </div>
-        <div class="verify">
+        <div className="verify">
         <a
         target='blank'
         href="https://github.com/"><GitHub/></a>

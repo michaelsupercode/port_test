@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import "./Skill.scss";
 const Skill = ({
   skill,
@@ -13,7 +15,7 @@ const Skill = ({
     <>
       <section className="skillsContainer">
         <h2>..skilled.. </h2>
-        <div className="singelSkillWrapper">
+        <div className="singleSkillWrapper">
           <p>HTML</p>
           <p>SCSS</p>
           <p className="item3">JavaScript</p>
@@ -21,7 +23,7 @@ const Skill = ({
           <p>MERN</p>
           <p className="item6">Tailwind</p>
           <p> Git</p>
-          <p>Express</p>
+          <p>Wordpress</p>
         </div>
       </section>
     </>

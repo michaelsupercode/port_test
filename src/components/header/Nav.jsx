@@ -10,7 +10,7 @@ const Nav = ({ chosenLightModus }) => {
     
     return(
         <nav className='navbar'>
-            <a href="#">michael_hanel</a>
+            <h3>michael_hanel</h3>
             <ul>
                 <div onClick={toggleLightMode}>
                 <Dark/>

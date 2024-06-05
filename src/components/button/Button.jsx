@@ -10,7 +10,7 @@ const Button = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        CV
+        
       </a>
       <a
         download="Another_Document"
@@ -19,7 +19,7 @@ const Button = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        s/w
+        
       </a>
     </div>
   );

@@ -11,8 +11,8 @@ import "./ProjectSection.scss";
 const ProjectSection = () => {
   return (
     <section className="projectsContainer">
-      <h5>..samples</h5>
-      <div>
+      <h5>..samples..</h5>
+      <div className="samples">
         <Project
           projectTitle="nothing2Trash"
           projectDescription="3tes Team- und Abschlussprojekt Backend"
