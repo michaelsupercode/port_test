@@ -2,7 +2,7 @@
 
 const Createur = ({designer }) => {
     return ( 
-        <p className="designer">done so far by a {designer}</p>
+        <p className="designer">done so far by an interested {designer}</p>
     );
 }
 

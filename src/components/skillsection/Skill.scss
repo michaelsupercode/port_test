@@ -1,7 +1,7 @@
 .skillsContainer {
-  margin-top: 62px;
   display: flex;
   flex-direction: column;
+  margin-top: 3vh;
   gap: 20px;
   align-items: center;
 
@@ -11,20 +11,20 @@
   }
 
   div {
-    width: 400px;
+    width: 60vw;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 
     p {
       margin: 6px;
-      box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.191);
+      box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.191);
       padding: 16px;
       text-align: center;
       transition: all 0.1s linear;
 
       &:hover {
         transform: translateY(-1px);
-        box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.191);
+        box-shadow: 1px 1px 10px 0px rgba(241, 183, 107, 0.1019607843);
       }
     }
   }

@@ -10,20 +10,28 @@ const Skill = ({
   skill6,
   skill7,
   skill8,
+  skill9,
+  skill10,
+  skill11,
+  skill12,
 }) => {
   return (
     <>
       <section className="skillsContainer">
         <h2>..skilled.. </h2>
         <div className="singleSkillWrapper">
-          <p>HTML</p>
-          <p>SCSS</p>
-          <p className="item3">JavaScript</p>
+          <p>HTML5</p>
+          <p>CSS3</p>
+          <p>SASS</p>
+          <p>JavaScript</p>
           <p>React</p>
           <p>MERN</p>
-          <p className="item6">Tailwind</p>
+          <p>Tailwind</p>
+          <p> Express</p>
+          <p>mongoDB</p>
           <p> Git</p>
           <p>Wordpress</p>
+          <p>Hosting</p>
         </div>
       </section>
     </>
